@@ -124,7 +124,7 @@ body {
 }
 
 .hero-btn:hover 
-.hero-btn:focus{ 
+.hero-btn:focus { 
     color: var(--pressed-state-ocean);
 }
 
@@ -183,7 +183,8 @@ body {
 
 /*?-----TEAM-----*/
 
-.team {background-color: var(--cloud-color);
+.team { 
+    background-color: var(--cloud-color);
 }
 
 .team-title {
@@ -200,7 +201,7 @@ body {
     background-color: var(--primary-white);
 }
 .team-item {
-    color: #ffffff;
+    color: var(--primary-white);
 }
 
 .team-subtitle {
