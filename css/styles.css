@@ -1,0 +1,345 @@
+:root {
+    --primary-white: #ffffff;
+    --primary-brand-iris: #4D5AE5;
+    --pressed-state-ocean: #404BBF;
+    --navi-blue: #2E2F42;
+    --green-color: #31D0AA;
+    --slate-color: #434455;
+    --cloud-color: #F4F4FD;
+    --light-slate-color: #8e8f99;
+    --cornflower-color: #e7e9fc;
+    --dairy-color: #fcfcfc;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--cornflower-color);
+    background-color: var(--primary-white);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.link {
+    text-decoration: none;
+    font-style: normal;
+}
+
+.list {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/*!-------HEADER-------*/
+
+.header-logo {
+    color: var(--navi-blue);
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+    line-height: 1,11;
+    letter-spacing: 0,03em;
+    text-transform: uppercase;
+}
+
+.header-logo-acssent {
+    color: var(--primary-brand-iris);
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+    line-height: 1,11;
+    letter-spacing: 0,03em;
+    text-transform: uppercase;
+}
+
+.header-menu-imet {
+    color: var(--navi-blue);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+}
+
+.header-address-item { 
+    color: var(--slate-color);
+    font-size: 16px;
+    line-height: 1,5;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    
+}
+
+.header-menu-imet .link:hover {
+    color: var(--primary-brand-iris);
+}
+.header-menu-imet .link:focus {
+    color: var(--primary-brand-iris);
+}
+.header-address .link:hover {
+    color: var(--primary-brand-iris);
+}
+.header-address .link:focus {
+    color: var(--primary-brand-iris);
+}
+
+/*?-------HERO-------*/
+
+.hero {
+    background-color: var(--navi-blue);
+    width: 1440px;
+    height: 4.16;
+    flex-shrink: 0;
+}
+
+.hero-title {
+    color: var(--primary-white);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+
+}
+.hero-btn {
+    border-radius: 4px;
+    background-color: var(--primary-brand-iris);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    font-family: Roboto;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+
+/**-------BENEFITS-------**/
+
+.benefits {
+    background-color: var(--primary-white);
+    list-style-type: none;
+    text-decoration: none;
+    font-style: normal;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+.benefits-list {
+}
+
+.benefits-item {
+}
+
+.benefits-subtitle {
+    color: var(--navi-blue);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.benefits-item-text {
+    color: var(--slate-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/*!-----DOING-----*/
+
+.doing {
+}
+
+.doing-subtitle {
+    color: var(--navi-blue);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02;
+    text-transform: capitalize;
+}
+
+.doing-list {
+}
+
+.doing-item {
+}
+
+.doing-img {
+}
+
+/*?-----TEAM-----*/
+
+.team {
+    background-color:var(--cloud-color);
+}
+.team-title {
+    color: var(--navi-blue);
+    font-size: 36px;
+    line-height: 1.11;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.title-list {
+}
+.team-item {
+}
+
+.team-subtitle {
+    color: var(--navi-blue);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.team-subtitle-text {
+    color: var(--slate-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02;
+}
+
+/**----FOOTER----**/
+
+.footer {
+    background-color: #2E2F42;
+    width: 1440px;
+    height: 312px;
+    flex-shrink: 0;
+}
+
+.footer-logo {
+    color: var(--cloud-color);
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+    line-height: 1,11;
+    letter-spacing: 0,03em;
+    text-transform: uppercase;
+}
+
+.footer-logo-acssent {
+    color: var(--primary-brand-iris);
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+    line-height: 1,11;
+    letter-spacing: 0,03em;
+    text-transform: uppercase;
+}
+
+.footer-text {
+    color:#F4F4FD;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+}
+
+/**-----PORTFOLIO-----**/
+
+/**Menu button**/
+
+.button-maim:active,
+.button-main:hover,
+.button-main:focus {
+    color: var(--primary-white);
+}
+
+.butoon-main {
+    color: var(--primary-brand-iris);
+    background-color: var(--cloud-color);
+    font-size: 16px;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+/*!-----content-----*/
+
+.content {
+}
+.content-list {
+}
+.content-item {
+}
+.visually-hidden {
+}
+.content-img {
+}
+.content-subtitle {
+    color: var(--navi-blue);
+    font-size: 20px;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.content-text {
+    color: var(--slate-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/**------MAIN------**/
+
+
+.main {
+}
+.main-list {
+}
+.main-item {
+}
+.main-subtitle {
+    color: var(--navi-blue);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.main-text {
+    color: var(--slate-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+.aside {
+}
+.aside-list {
+}
+.aside-item {
+}
+.aside-subtitle {
+    color: var(--navi-blue);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.aside-text {
+    color: var(--slate-color);
+line-height: 24px;
+letter-spacing: 0.01em;
+}
+
