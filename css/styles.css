@@ -123,10 +123,7 @@ body {
     letter-spacing: 0.04em;
 }
 
-.hero-button .link:hover {
-    color: var(--pressed-state-ocean);
-}
-
+.hero-button .link:hover,
 .hero-button .link:focus {
     color: var(--pressed-state-ocean);
 }
@@ -202,6 +199,10 @@ body {
 }
 
 .title-list .list {
+    background-color: var(--primary-white);
+}
+
+.team-item {
     background-color: var(--primary-white);
 }
 
