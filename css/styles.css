@@ -102,9 +102,6 @@ body {
 
 .hero {
     background-color: var(--navi-blue);
-    width: 1440px;
-    height: 4.16;
-    flex-shrink: 0;
 }
 
 .hero-title {
@@ -120,7 +117,6 @@ body {
     color: var(--primary-white);
     border-radius: 4px;
     background-color: var(--primary-brand-iris);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -129,7 +125,9 @@ body {
     letter-spacing: 0.04em;
 }
 
-.hero-btn:hover,
+.hero-btn:hover {
+    color: var(--pressed-state-ocean);
+}
 .hero-btn:focus {
     color: var(--pressed-state-ocean);
 }
@@ -194,7 +192,7 @@ body {
 /*?-----TEAM-----*/
 
 .team {
-    background-color:var(--cloud-color);
+
 }
 .team-title {
     color: var(--navi-blue);
@@ -207,7 +205,7 @@ body {
 }
 
 .title-list {
-    background-color: var(--primary-white);
+    background-color:var(--primary-white);
 }
 .team-item {
 }
@@ -232,9 +230,6 @@ body {
 
 .footer {
     background-color: #2E2F42;
-    width: 1440px;
-    height: 312px;
-    flex-shrink: 0;
 }
 
 .footer-logo {
