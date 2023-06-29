@@ -14,13 +14,13 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    color: var(--cornflower-color);
+    color: var(--slate-color);
     background-color: var(--primary-white);
 }
 
 .visually-hidden {
     position: absolute;
-    width: 1px;
+    width: 1px;  
     height: 1px;
     margin: -1px;
     border: 0;
@@ -45,53 +45,57 @@ body {
 /*!-------HEADER-------*/
 
 .header-logo {
-    color: var(--navi-blue);
+    color: var(--primary-brand-iris);
     font-size: 18px;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
-    line-height: 1,11;
-    letter-spacing: 0,03em;
+    line-height: 1.11;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .header-logo-acssent {
-    color: var(--primary-brand-iris);
+    color:var(--navi-blue);
     font-size: 18px;
     font-family: Raleway;
     font-weight: 800;
-    line-height: 1,11;
-    letter-spacing: 0,03em;
+    line-height: 1.11;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .header-menu-imet {
-    color: var(--navi-blue);
+    color:var(--navi-blue);
     font-size: 16px;
     font-weight: 500;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.header-ads {
+    font-style: normal;
 }
 
 .header-address-item { 
     color: var(--slate-color);
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     font-weight: 500;
     letter-spacing: 0.02em;
     
 }
 
 .header-menu-imet .link:hover {
-    color: var(--primary-brand-iris);
+    color: var(--pressed-state-ocean);
 }
 .header-menu-imet .link:focus {
-    color: var(--primary-brand-iris);
+    color: var(--pressed-state-ocean);
 }
 .header-address .link:hover {
-    color: var(--primary-brand-iris);
+    color: var(--pressed-state-ocean);
 }
 .header-address .link:focus {
-    color: var(--primary-brand-iris);
+    color: var(--pressed-state-ocean);
 }
 
 /*?-------HERO-------*/
@@ -113,15 +117,20 @@ body {
 
 }
 .hero-btn {
+    color: var(--primary-white);
     border-radius: 4px;
     background-color: var(--primary-brand-iris);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    font-family: Roboto;
     cursor: pointer;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    color: var(--pressed-state-ocean);
 }
 
 
@@ -166,6 +175,7 @@ body {
 .doing-subtitle {
     color: var(--navi-blue);
     font-size: 36px;
+    text-align: center;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02;
@@ -196,12 +206,14 @@ body {
 }
 
 .title-list {
+    background-color: var(--primary-white);
 }
 .team-item {
 }
 
 .team-subtitle {
     color: var(--navi-blue);
+    text-align: center;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -212,7 +224,7 @@ body {
     color: var(--slate-color);
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
 
 /**----FOOTER----**/
@@ -225,29 +237,29 @@ body {
 }
 
 .footer-logo {
-    color: var(--cloud-color);
+    color: var(--primary-brand-iris);
     font-size: 18px;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
-    line-height: 1,11;
-    letter-spacing: 0,03em;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .footer-logo-acssent {
-    color: var(--primary-brand-iris);
+    color:var(--cloud-color);
     font-size: 18px;
-    font-family: Raleway;
+    font-family: "Raleway",sans-serif;
     font-weight: 800;
-    line-height: 1,11;
-    letter-spacing: 0,03em;
+    line-height: 1.11;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .footer-text {
-    color:#F4F4FD;
+    color:var(--cloud-color);
     line-height: 24px;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.02em;
 }
 
 /**-----PORTFOLIO-----**/
