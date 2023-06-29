@@ -33,6 +33,7 @@ body {
 
 .list {
     list-style-type: none;
+    list-style: none;
     text-decoration: none;
 }
 
@@ -120,7 +121,7 @@ body {
 .hero-btn:hover 
 .hero-btn:focus{ 
     color: var(--pressed-state-ocean);
- }
+}
 
 /**-------BENEFITS-------**/
 
