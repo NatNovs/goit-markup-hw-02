@@ -254,8 +254,8 @@ body {
 
 /**Menu button**/
 
-.button-main .link:hover
-.button-main .link:focus {
+.button-item .link:hover,
+.button-item .link:focus {
     color: var(--primary-white);
     background-color:var(--pressed-state-ocean);
 }
