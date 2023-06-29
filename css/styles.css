@@ -123,7 +123,9 @@ body {
     letter-spacing: 0.04em;
 }
 
-.hero-btn .link:hover 
+.hero-btn .link:hover {
+    color: var(--pressed-state-ocean);
+}
 .hero-btn .link:focus { 
     color: var(--pressed-state-ocean);
 }
