@@ -112,7 +112,7 @@ body {
     letter-spacing: 0.02em;
 
 }
-.hero-btn {
+.hero-button {
     color: var(--primary-white);
     background-color: var(--primary-brand-iris);
     cursor: pointer;
