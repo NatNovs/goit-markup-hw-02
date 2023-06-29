@@ -117,12 +117,10 @@ body {
     letter-spacing: 0.04em;
 }
 
-.hero-btn:hover {
+.hero-btn:hover 
+.hero-btn:focus{ 
     color: var(--pressed-state-ocean);
-}
-.hero-btn:focus {
-    color: var(--pressed-state-ocean);
-}
+ }
 
 /**-------BENEFITS-------**/
 
@@ -179,12 +177,11 @@ body {
 
 /*?-----TEAM-----*/
 
-.team {background-color: var(--cloud-color));
+.team {background-color: var(--cloud-color);
 }
 
-}
 .team-title {
-    color: var(--navi-blue);
+    color:var(--navi-blue);
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -194,7 +191,7 @@ body {
 }
 
 .title-list {
-
+    background-color: var(--primary-white);
 }
 .team-item {
     color: #ffffff;
@@ -251,8 +248,7 @@ body {
 
 /**Menu button**/
 
-.button-maim:active,
-.button-main:hover,
+.button-main:hover
 .button-main:focus {
     color: var(--primary-white);
     background-color:var(--pressed-state-ocean);
@@ -273,13 +269,13 @@ body {
 /*!-----content-----*/
 
 .content {
-
 }
 .content-list {
     list-style: none;
     text-decoration: none;
 }
 .content-item {
+    text-decoration: none;
 }
 .visually-hidden {
 }
