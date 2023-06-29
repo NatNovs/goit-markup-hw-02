@@ -202,9 +202,6 @@ body {
 .title-list {
     background-color: var(--primary-white);
 }
-.team-item {
-    background-color: var(--primary-white);
-}
 
 .team-subtitle {
     color: var(--navi-blue);
