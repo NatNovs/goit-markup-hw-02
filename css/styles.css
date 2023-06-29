@@ -19,13 +19,7 @@ body {
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;  
-    height: 1px;
     margin: -1px;
-    border: 0;
-    padding: 0;
-    
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -185,7 +179,8 @@ body {
 
 /*?-----TEAM-----*/
 
-.team {
+.team {background-color: var(--cloud-color));
+}
 
 }
 .team-title {
@@ -199,9 +194,10 @@ body {
 }
 
 .title-list {
-    background-color:var(--primary-white);
+
 }
 .team-item {
+    color: #ffffff;
 }
 
 .team-subtitle {
@@ -259,7 +255,7 @@ body {
 .button-main:hover,
 .button-main:focus {
     color: var(--primary-white);
-    background-color: var(--pressed-state-ocean);
+    background-color:var(--pressed-state-ocean);
 }
 
 .butoon-main {
