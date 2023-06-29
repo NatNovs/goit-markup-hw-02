@@ -203,7 +203,7 @@ body {
     background-color: var(--primary-white);
 }
 .team-item {
-    color: var(--primary-white);
+    background-color: var(--primary-white);
 }
 
 .team-subtitle {
