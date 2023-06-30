@@ -261,13 +261,8 @@ body {
 
 /**Menu button**/
 
-.button-main .link:hover,
-.button-main .link:focus {
-    color: var(--primary-white);
-    background-color:var(--pressed-state-ocean);
-}
 
-.butoon-main {
+.button-main {
     color: var(--primary-brand-iris);
     background-color: var(--cloud-color);
     font-size: 16px;
@@ -278,7 +273,12 @@ body {
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-
+.button-main .link:focus
+.button-main .link:hover {
+    color: var(--primary-white);
+    background-color: var(--pressed-state-ocean);
+    
+}
 /*!-----content-----*/
 
 .content {
