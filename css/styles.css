@@ -123,13 +123,10 @@ body {
     letter-spacing: 0.04em;
 }
 
-.hero-button:hover {
-    background-color: #404BBF;
-    
-}
+.hero-button:hover,
 .hero-button:focus {
     background-color: var(--pressed-state-ocean);
-
+    
 }
 
 /**-------BENEFITS-------**/
