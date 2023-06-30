@@ -123,8 +123,11 @@ body {
     letter-spacing: 0.04em;
 }
 
-.hero-button .link:hover,
-.hero-button .link:focus {
+.hero-button:hover {
+    color: var(--pressed-state-ocean);
+}
+
+.hero-button:focus {
     color: var(--pressed-state-ocean);
 }
 
@@ -206,6 +209,7 @@ body {
     background-color: var(--primary-white);
 }
 
+
 .team-subtitle {
     color: var(--navi-blue);
     text-align: center;
@@ -257,13 +261,13 @@ body {
 
 /**Menu button**/
 
-.button-portfolio:hover,
-.button-portfolio:focus {
+.button-main .link:hover,
+.button-main .link:focus {
     color: var(--primary-white);
     background-color:var(--pressed-state-ocean);
 }
 
-.butoon-portfolio {
+.butoon-main {
     color: var(--primary-brand-iris);
     background-color: var(--cloud-color);
     font-size: 16px;
