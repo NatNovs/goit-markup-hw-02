@@ -273,12 +273,12 @@ body {
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-.button-main .link:focus {
+.button-main:focus {
     color: var(--primary-white);
     background-color: var(--pressed-state-ocean);
 }
 
-.button-main .link:hover {
+.button-main:hover {
     color: var(--primary-white);
     background-color: var(--pressed-state-ocean);
     
